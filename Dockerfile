@@ -5,5 +5,6 @@ WORKDIR /
 COPY ./server /server
 COPY ./IntelliJIDEALicenseServer.html /IntelliJIDEALicenseServer.html
 RUN chmod +x /server
+EXPOSE 1017
 
 CMD ["/server"]
